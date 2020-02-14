@@ -1,6 +1,4 @@
-using System;
-
-namespace NotesOfOrder.Models
+namespace NotesOfOrder.Core.Models
 {
     public class ErrorViewModel
     {

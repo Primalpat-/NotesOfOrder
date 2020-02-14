@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using NotesOfOrder.Models;
+using NotesOfOrder.Core.Models;
 
-namespace NotesOfOrder.Controllers
+namespace NotesOfOrder.Web.Controllers
 {
     public class HomeController : Controller
     {
