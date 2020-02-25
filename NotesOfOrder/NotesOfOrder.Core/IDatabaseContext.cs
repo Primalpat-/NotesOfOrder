@@ -14,7 +14,7 @@ namespace NotesOfOrder.Core
     {
         DbSet<ExampleEntity> ExampleEntities { get; set; }
         DbSet<ExampleSubEntity> ExampleSubEntities { get; set; }
-
+        DbSet<Note> Notes { get; set; }
         #region DBContext Features
 
         DbSet<T> Set<T>() where T : class;

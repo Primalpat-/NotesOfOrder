@@ -20,7 +20,7 @@ namespace NotesOfOrder.Data
 
         public DbSet<ExampleEntity> ExampleEntities { get; set; }
         public DbSet<ExampleSubEntity> ExampleSubEntities { get; set; }
-
+        public DbSet<Note> Notes { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!Debugger.IsAttached)

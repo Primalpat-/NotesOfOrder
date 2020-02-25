@@ -1,8 +1,94 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Index";
 }
 
+<h1>Navgator Index</h1>
+
+//Map stuffs?
+
 <div class="text-center">
+    <script type="text/javascript">
+        function () {
+            alert ('this is javascript!');
+    }
+    </script>
+
+    <style type="text/css">
+        .bgcolor {
+            background-color: mediumpurple;
+        }
+    #MainContainer {
+        color: lightgoldenrodyellow;
+    }
+
+    @@media (min-width: 576px) {
+        .chair-height {
+            height: 60px;
+        }
+    }
+
+    @@media (min-width: 576px) {
+        .chair-height {
+            height: 60px;
+        }
+    }
+
+    @@media (min-width: 768px) {
+        .chair-height {
+            height: 80px;
+        }
+    }
+
+    @@media (min-width: 992px) {
+        .chair-height {
+            height: 100px;
+        }
+    }
+
+    @@media (min-width: 1200px) {
+        .chair-height {
+            height: 120px;
+        }
+    }
+    </style>
+
+
+    <div class="container bgcolor" id="MainContainer">
+        <div class="row chair-height">
+            <div class="col">
+                Empty
+            </div>
+            <div class="col">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Navigator" asp-action="Index">Chair # 1</a>
+            </div>
+            <div class="col">
+                Chair # 2
+            </div>
+        </div>
+        <div class="row chair-height">
+            <div class="col">
+                Chair # 3
+            </div>
+            <div class="col">
+                Empty
+            </div>
+            <div class="col">
+                Empty
+            </div>
+        </div>
+        <div class="row chair-height">
+            <div class="col">
+                Empty
+            </div>
+            <div class="col">
+                Chair # 4
+            </div>
+            <div class="col">
+                Chair # 5
+            </div>
+        </div>
+    </div>
+
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Please access <a href="https://docs.microsoft.com/aspnet/core">to help starving koala bears in Australia.  Every leaf counts!</a>.</p>
 </div>
